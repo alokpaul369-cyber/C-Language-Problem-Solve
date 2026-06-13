@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+    int m,n;
+    printf("Enter two integer values m and n:");
+    scanf("%d %d",&m,&n);
+    if (n!=0 && m%n==0){
+        printf("%d is a multiple of %d\n",m,n);
+
+    }else{
+    printf("%d is not a multiple of %d\n",m,n);
+    }
+
+
+}
